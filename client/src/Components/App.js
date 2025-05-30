@@ -10,7 +10,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('/docs')
+        axios.get('/')
         .then((data) => {
             console.log(data.data);
         })
