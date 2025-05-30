@@ -20,20 +20,19 @@
   },
   "homepage": "https://github.com/jackpronske/Full_Stack_Template#readme",
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
-    "babel-loader": "^8.2.4",
-    "webpack": "^5.71.0",
-    "webpack-cli": "^4.9.2"
+    "@babel/core": "^7.27.3",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-    "axios": "^0.26.1",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "nodemon": "^2.0.15",
-    "pg": "^8.7.3",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
