@@ -1,0 +1,39 @@
+{
+  "name": "full_stack_template",
+  "version": "1.0.0",
+  "description": "Got tired of setting this up all the time, so here's a full stack application template",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "nodemon server",
+    "build-dev": "webpack --mode=development -w",
+    "build-prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackpronske/Full_Stack_Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackpronske/Full_Stack_Template/issues"
+  },
+  "homepage": "https://github.com/jackpronske/Full_Stack_Template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
