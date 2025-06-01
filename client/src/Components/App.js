@@ -1,27 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-class App extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: "there"
-        };
-    }
+import NavBar from './NavBar';
 
-    componentDidMount() {
-        axios.get('/')
-        .then((data) => {
-            console.log(data.data);
-        })
-        .catch((err) => {
-            console.log(err);
-        })
-    }
+const App = () => {
 
-    render() {
-        return <h1>Hello, {this.state.name}</h1>;
-    } 
-}
+  const [name, setName] = useState('there');
+
+  useEffect(() => {
+    axios.get('/name')
+      .then((result) => {
+        setName(result.data?.name)
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+  })
+
+  return (
+    <>
+      <div>hello, {name}!</div>
+      <NavBar />
+    </>
+  )
+};
 
 export default App;

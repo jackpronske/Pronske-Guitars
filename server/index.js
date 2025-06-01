@@ -7,21 +7,13 @@ const port = 3030;
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '../client/public')));
 
-app.get('/', (req, res) => {
-  if (err) {
-    res.status(400).send(err);
-  } else {
-    res.status(200).send({});
-  }
+app.get('/name', (req, res) => {
+  res.status(200).send({name:'jack'});
 });
 
 app.post('/', (req, res) => {
   console.log(req.body);
-  if (err) {
-    res.status(400).send(err);
-  } else {
-    res.status(201).send(res.body);
-  }
+  res.status(201).send(res.body);
 });
 
 app.listen(port, () => {
