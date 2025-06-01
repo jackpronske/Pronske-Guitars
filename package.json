@@ -1,7 +1,7 @@
 {
-  "name": "full_stack_template",
+  "name": "pronske_guitars_website",
   "version": "1.0.0",
-  "description": "Got tired of setting this up all the time, so here's a full stack application template",
+  "description": "Website for Pronske Guitars",
   "main": "webpack.config.js",
   "scripts": {
     "start": "nodemon server",
