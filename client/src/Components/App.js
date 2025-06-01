@@ -10,7 +10,7 @@ const App = () => {
     axios
       .get("/name")
       .then((result) => {
-        setName(result.data?.name);
+        setName(result.data.name);
       })
       .catch((err) => {
         console.log(err);
