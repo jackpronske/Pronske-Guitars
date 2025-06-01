@@ -1,11 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "./Components/App";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+import App from "./Components/App";
+import ErrorPage from "./Components/ErrorPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />, // Layout route
+    // errorElement: <ErrorPage />,
+    children: [
+      { index: true, element: <div>HOME</div> },
+      { path: "instruments", element: <div>INSTRUMENTS</div> },
+      { path: "media", element: <div>MEDIA</div> },
+      { path: "order", element: <div>ORDER</div> },
+      { path: "about", element: <div>ABOUT US</div> },
+      { path: "*", element: <ErrorPage /> },
+    ],
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
