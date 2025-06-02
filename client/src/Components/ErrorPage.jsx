@@ -4,9 +4,9 @@ import "../Styles/ErrorPage.scss";
 
 export default function ErrorPage() {
   return (
-    <div>
-      <h1 className="error">404 – Not Found</h1>
-      <p className="error">Woah, I am lost...</p>
+    <div className="error">
+      <h1>404 – Not Found</h1>
+      <p>Woah, I am lost...</p>
       <Link to={"/"}>Take Me Home</Link>
     </div>
   );

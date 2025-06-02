@@ -1,4 +1,9 @@
 .error {
     padding: 2rem;
-    color: red
+    color: red;
+    border: 1px dotted red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }

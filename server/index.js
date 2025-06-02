@@ -11,12 +11,18 @@ app.post("/api/log-route", (req, res) => {
   res.sendStatus(200);
 });
 
-app.get("/*", (req, res) => {
+app.get("/*", (req, res, next) => {
   res.sendFile(path.join(__dirname, "../client/public/index.html"), (err) => {
     if (err) {
-      console.error("Error sending index.html:", err);
-      res.status(500).send("Server error");
+      next(err);
     }
+  });
+});
+
+app.use((err, req, res) => {
+  console.error("Global Error:", err.stack);
+  res.status(err.status || 500).json({
+    error: { message: err.message || "Internal Server Error" },
   });
 });
 
