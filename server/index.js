@@ -3,19 +3,12 @@ const path = require("path");
 const app = express();
 const port = 3030;
 
+app.use(express.json());
 app.use(express.static(path.join(__dirname, "../client/public")));
 
-app.use((req, res, next) => {
-  if (!req.originalUrl.startsWith("/.well-known")) {
-    console.log(
-      `[API] ${req.method} ${req.originalUrl} - ${new Date().toLocaleString()}`,
-    );
-  }
-  next();
-});
-
-app.get("/name", (req, res) => {
-  res.status(200).send({ name: "jack" });
+app.post("/api/log-route", (req, res) => {
+  console.log(`[API] ${req.body.path} - ${new Date().toLocaleString()}`);
+  res.sendStatus(200);
 });
 
 app.get("/*", (req, res) => {
