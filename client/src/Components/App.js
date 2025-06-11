@@ -5,7 +5,8 @@ import LogPageView from "./LogPageView";
 
 export default function App() {
   return (
-    <div>
+    <div className="space">
+      <div className="space-1"></div>
       <NavBar />
       <LogPageView />
       <Outlet />

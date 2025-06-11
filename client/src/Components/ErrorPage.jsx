@@ -11,5 +11,3 @@ export default function ErrorPage() {
     </div>
   );
 }
-
-// FUTURE JACK : This styles import is still not working!

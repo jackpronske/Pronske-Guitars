@@ -1,23 +1,17 @@
 .nav-container {
-    height: 60px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #3D7135;
-    position: fixed;
-    width: 100%;
+    // height: 60px;
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
+    // background-color: #3D7135;
+    // width: 100%;
+    // position: sticky;
+    // top: 0;
 
-    animation: slideDown .4s ease-out forwards;
-}
-
-@keyframes slideDown {
-    from {
-        top: -60px;
-        opacity: 0;
-    }
-
-    to {
-        top: 0;
-        opacity: 1;
-    }
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 1rem;
+    z-index: 100;
+    border-bottom: 1px solid #ccc;
 }
