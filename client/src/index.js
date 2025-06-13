@@ -4,6 +4,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./Components/App";
 import ErrorPage from "./Components/ErrorPage";
+import Home from "./Components/Home";
+import Instruments from "./Components/Instruments";
+import Media from "./Components/Media";
+import Order from "./Components/Order";
+import AboutUs from "./Components/AboutUs";
 
 import "./Styles/App.scss";
 
@@ -12,11 +17,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      { index: true, element: <div>HOME</div> },
-      { path: "instruments", element: <div>INSTRUMENTS</div> },
-      { path: "media", element: <div>MEDIA</div> },
-      { path: "order", element: <div>ORDER</div> },
-      { path: "about", element: <div>ABOUT US</div> },
+      { index: true, element: <Home /> },
+      { path: "instruments", element: <Instruments /> },
+      { path: "media", element: <Media /> },
+      { path: "order", element: <Order /> },
+      { path: "about", element: <AboutUs /> },
       { path: "*", element: <ErrorPage /> },
     ],
   },
