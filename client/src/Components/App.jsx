@@ -4,6 +4,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import NavBar from "./NavBar";
 import LogPageView from "./LogPageView";
 import ScrollToTop from "./ScrollToTop";
+import Footer from "./Footer";
 
 export default function App() {
 
@@ -18,7 +19,7 @@ export default function App() {
       <LogPageView />
       <ScrollToTop />
       <Outlet />
-      <div>FOOTER</div>
+      <Footer />
     </div>
   );
 }
