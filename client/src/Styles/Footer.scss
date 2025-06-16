@@ -1,0 +1,75 @@
+@use './variables' as *;
+
+.footer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background-color: #131B23;
+    border: 1px dotted red;
+}
+
+.form-cta-title-top {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.form-outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.indent {
+    text-align: right;
+    padding-top: 0.5em;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-left: 0.5em;
+    padding: 0.5rem;
+    background-color: $primary-text-color;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+button {
+    background-color: #2274A5;
+    color: $primary-text-color;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px #b2aea3;
+}
+
+button:active {
+    transform: translateY(0.5px);
+    box-shadow: 0 1.5px 3px #ede2c3;
+}

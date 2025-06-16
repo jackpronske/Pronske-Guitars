@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import axios from "axios";
+
+import "../Styles/Footer.scss";
 
 export default function Form() {
 
@@ -7,17 +10,33 @@ export default function Form() {
   const [message, setMessage] = useState('');
   const [checkbox, toggleCheckbox] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log({ name, email, message, checkbox });
-    setName('');
-    setEmail('');
-    setMessage('');
-    toggleCheckbox(false);
+    // console.log({ name, email, message, checkbox });
+    try {
+      await axios.get('/form/')
+        .then((response) => {
+          console.log(response.data);
+          // need proper modal verification that message was sent
+        })
+    }
+    catch {
+      console.log("error with call");
+      // need proper modal error handling that message was not sent
+    }
+    finally {
+      setName('');
+      setEmail('');
+      setMessage('');
+      toggleCheckbox(false);
+    }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form
+      onSubmit={handleSubmit}
+      className="form"
+    >
       <label>
         Name:
         <input
@@ -56,7 +75,7 @@ export default function Form() {
           checked={checkbox}
           onChange={() => toggleCheckbox(!checkbox)}
         />
-        Sign me up for the newsletter
+        Sign up for our newsletter!
       </label>
       <br />
 

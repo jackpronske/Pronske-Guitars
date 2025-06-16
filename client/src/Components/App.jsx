@@ -14,7 +14,8 @@ export default function App() {
   return (
     <div>
       {!isHome && <div style={{ height: "60px" }} />}
-      {isHome && <div className="guitar"></div>}
+      {/* {isHome && <img className="guitar" src="/images/guitar_hero_example.jpg" alt="Pronske Guitars. Hero Image" />} */}
+      {isHome && <div className="hero-image"></div>}
       <NavBar />
       <LogPageView />
       <ScrollToTop />

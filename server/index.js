@@ -1,10 +1,15 @@
+require('dotenv').config();
 const express = require("express");
 const path = require("path");
 const app = express();
 const port = 3030;
 
+const formRouter = require('./routes/form.js');
+
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../client/public")));
+
+app.use("/form", formRouter);
 
 app.post("/api/log-route", (req, res) => {
   console.log(`[API] ${req.body.path} - ${new Date().toLocaleString()}`);

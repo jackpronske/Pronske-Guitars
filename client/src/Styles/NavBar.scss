@@ -1,42 +1,32 @@
+@use './variables' as *;
+
 .nav-container {
     height: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #131B23;
-    // background-color: linear-gradient(to top, #131B23, #1c2125, #131B23);
-    width: 100%;
-    color: #FAF4E1;
-    // position: sticky;
-    // top: 0;
-
     position: sticky;
     top: 0;
-    // background: white;
     padding: 1rem;
     z-index: 100;
-    border-bottom: 1px solid #E7DFC6;
+    border-bottom: 1px solid #E9F1F7;
     margin-top: -60px;
 }
 
 .nav-item {
-    color: #FAF4E1;
+    color: $primary-text-color;
     text-decoration: none;
     font-weight: 700;
-    // transition: font-weight 0.3s ease;
     opacity: 0.6;
-    /* appear light */
     transition: opacity 0.2s ease;
 }
 
 .nav-item.active {
-    color: #E7DFC6;
     opacity: 1;
-    /* <-- active route */
 }
 
 .nav-item:hover {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
-    // font-weight: 700;
     opacity: 1;
 }
