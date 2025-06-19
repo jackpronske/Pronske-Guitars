@@ -6,11 +6,11 @@ const sgMail = require('../utilities/sendgrid');
 router.get('/', (req, res) => {
   console.log('form get hit');
   const msg = {
-    to: 'jackpronske@yahoo.com', // Change to your recipient
-    from: 'test@pronskeguitars.com', // Change to your verified sender
-    subject: 'Sending with SendGrid is Fun',
-    text: 'and easy to do anywhere, even with Node.js',
-    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+    to: 'jackpronske@yahoo.com',
+    from: 'newsletter@pronskeguitars.com',
+    subject: 'Pronske Guitars Newest Newsletter',
+    text: 'We have a great newsletter for you today! Thank you so much for being a part of our company, we love you! -Jack',
+    html: '<strong>We have a great newsletter for you today! Thank you so much for being a part of our company, we love you! -Jack</strong>',
   };
 
   sgMail
@@ -22,8 +22,6 @@ router.get('/', (req, res) => {
     .catch((error) => {
       console.error(error)
     })
-
-  // res.status(200).send({ message: 'List of users' });
 });
 
 module.exports = router;

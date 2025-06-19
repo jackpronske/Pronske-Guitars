@@ -31,6 +31,15 @@ export default function Media() {
   return (
     <>
       <div>MEDIA COMPONENT</div>
+      <div className="video-container">
+        <iframe
+          src="https://youtube.com/embed/videoseries?list=PLdbQG347EqVCXIzF520Hu-9RvPkUwt3t2&si=GfSVbvZzD0sb1LXx"
+          title="YouTube playlist player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share"
+          allowFullScreen
+        ></iframe>
+      </div>
       <div className="media-container">
         <div className="gallery-container">
           {images.map((img, i) => (
