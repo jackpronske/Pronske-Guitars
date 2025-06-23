@@ -11,6 +11,11 @@ body {
     font-style: normal;
 }
 
+.body-container {
+    color: $secondary-text-color;
+    min-height: 500px;
+}
+
 .space {
     height: 2000px;
 }

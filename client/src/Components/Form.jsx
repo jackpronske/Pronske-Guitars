@@ -12,7 +12,6 @@ export default function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log({ name, email, message, checkbox });
     try {
       await axios.get('/form/')
         .then((response) => {

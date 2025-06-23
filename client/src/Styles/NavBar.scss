@@ -3,7 +3,7 @@
 .nav-container {
     height: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #131B23;
     position: sticky;
@@ -12,6 +12,16 @@
     z-index: 100;
     border-bottom: 1px solid #E9F1F7;
     margin-top: -60px;
+}
+
+.nav-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 1rem;
+
 }
 
 .nav-item {

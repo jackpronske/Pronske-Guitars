@@ -1,26 +1,133 @@
 @use './variables' as *;
 
-.footer {
-    height: 500px;
+.footer-container {
     background-color: #816C61;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
     width: 100%;
+    max-width: 1200px;
+    background-color: $primary-text-color;
 }
 
-.box {
-    border: 1px dotted red;
+.footer>* {
+    background-color: #816C61;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
-.form-outer-container {
+.large {
+    font-size: 20pt;
+    white-space: nowrap;
+}
+
+.texas-logo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2.5em;
+    gap: 1rem;
 }
 
-// .form-cta-title-container {}
+.texas-logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('../../public/images/texas_guitar.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.box {
+    flex: 1 1 350px;
+    box-sizing: border-box;
+}
+
+.social-icons-container {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.social-icon {
+    color: $primary-text-color;
+    font-size: 16pt;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+
+    &:hover {
+        color: #e7dfc6;
+        transform: scale(1.2);
+    }
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+
+}
+
+.info {
+    gap: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.links {
+    gap: 2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.links h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    margin: 0.5rem 0;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.links li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: $primary-text-color;
+}
+
+.links a {
+    color: $primary-text-color;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: #E7DFC6;
+}
+
+.form-outer {
+    padding-bottom: 1.5rem;
+}
 
 .form-cta-title-top {
     font-weight: 600;
@@ -38,7 +145,7 @@
     height: 2px;
     background: linear-gradient(to right, #816C61, $primary-text-color, #816C61);
     margin: 1rem 0;
-    width: 400px;
+    width: 300px;
 }
 
 .form {
@@ -85,11 +192,4 @@ button:hover {
 button:active {
     transform: translateY(0.5px);
     box-shadow: 0 1.5px 3px #ede2c3;
-}
-
-@media (max-width: 768px) {
-    .footer {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, auto);
-    }
 }

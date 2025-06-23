@@ -80,7 +80,6 @@ img {
 .nav-button {
     position: absolute;
     top: 50%;
-    // transform: translateY(-50%);
     font-size: 2rem;
     color: white;
     background: transparent;
@@ -98,8 +97,8 @@ img {
 }
 
 .video-container {
-    width: 50%; // ⬅️ Half page width
-    margin: 0 auto; // ⬅️ Center horizontally
+    width: 50%;
+    margin: 0 auto;
     position: relative;
     padding-bottom: 28.125%;
     /* 16:9 */
