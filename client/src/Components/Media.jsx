@@ -28,10 +28,21 @@ export default function Media() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [selectedIndex]);
 
+  useEffect(() => {
+    const scroll = (id) => {
+      const section = document.querySelector(`#${id}`);
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    if (window.location.href.split('#').length === 2) {
+      scroll(window.location.href.split('#')[1]);
+    }
+  }, []);
+
   return (
     <>
       <div>MEDIA COMPONENT</div>
-      <div className="video-container">
+      <div id="youtube" className="video-container">
         <iframe
           src="https://youtube.com/embed/videoseries?list=PLdbQG347EqVCXIzF520Hu-9RvPkUwt3t2&si=GfSVbvZzD0sb1LXx"
           title="YouTube playlist player"
@@ -52,7 +63,7 @@ export default function Media() {
 
       {selectedIndex !== null && (
         <div className="modal-overlay" onClick={handleClose}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <div className="media-modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="close-button" onClick={handleClose}>✕</button>
             <button className="nav-button prev" onClick={handlePrev}>←</button>
             <img src={images[selectedIndex].src} alt={images[selectedIndex].alt} />
