@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 import Modal from "./Modal";
@@ -7,6 +7,9 @@ import "../Styles/Footer.scss";
 
 export default function Form() {
 
+  const [captchaSvg, setCaptchaSvg] = useState("");
+  const [captcha, setCaptcha] = useState("");
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -14,25 +17,48 @@ export default function Form() {
 
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenError, setIsOpenError] = useState(false);
+  const [isOpenCAPTCHAError, setIsOpenCAPTCHAError] = useState(false);
+
+  const fetchCaptcha = async () => {
+    const res = await axios.get("/form/captcha");
+    const data = res.data;
+    setCaptchaSvg(data);
+  };
+
+  useEffect(() => { fetchCaptcha(); }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('/form/', { name, email, message })
+
+      await axios.post('/form/submit', { name, email, message, captcha, checkbox })
         .then((response) => {
           if (response.status < 300) {
             setIsOpen(true);
+            setName('');
+            setEmail('');
+            setMessage('');
+            toggleCheckbox(false);
           }
         })
+        .catch((err) => {
+          throw err;
+        })
     }
-    catch {
-      setIsOpenError(true);
+    catch (err) {
+      if (err.response.data.error === "invalid captcha") {
+        setIsOpenCAPTCHAError(true);
+      } else {
+        setIsOpenError(true);
+        setName('');
+        setEmail('');
+        setMessage('');
+        toggleCheckbox(false);
+      }
     }
     finally {
-      setName('');
-      setEmail('');
-      setMessage('');
-      toggleCheckbox(false);
+      fetchCaptcha();
+      setCaptcha("");
     }
   };
 
@@ -84,8 +110,15 @@ export default function Form() {
         </label>
         <br />
 
+        <label>
+          <div dangerouslySetInnerHTML={{ __html: captchaSvg }} />
+          <input value={captcha} onChange={e => setCaptcha(e.target.value)} placeholder="Enter captcha" required />
+        </label>
+        <br />
+
         <button className="form-button" type="submit">Send</button>
       </form>
+
       <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
         <h2>Thanks for Reaching Out!</h2>
         <div className="modal-text-container">
@@ -94,6 +127,7 @@ export default function Form() {
         </div>
         <button onClick={() => setIsOpen(false)}>Close</button>
       </Modal>
+
       <Modal isOpen={isOpenError} onClose={() => setIsOpenError(false)}>
         <h2>Uh Oh!</h2>
         <div className="modal-text-container">
@@ -102,6 +136,15 @@ export default function Form() {
           <div>Please try again in a moment!</div>
         </div>
         <button onClick={() => setIsOpenError(false)}>Close</button>
+      </Modal>
+
+      <Modal isOpen={isOpenCAPTCHAError} onClose={() => setIsOpenCAPTCHAError(false)}>
+        <h2>Uh Oh!</h2>
+        <div className="modal-text-container">
+          <div>Are you sure you're not a robot?</div>
+          <div>Try that CAPTCHA again...</div>
+        </div>
+        <button onClick={() => setIsOpenCAPTCHAError(false)}>Close</button>
       </Modal>
     </>
   );

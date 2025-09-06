@@ -7,7 +7,7 @@ import ErrorPage from "./Components/ErrorPage";
 import Home from "./Components/Home";
 import Instruments from "./Components/Instruments";
 import Media from "./Components/Media";
-import Order from "./Components/Order";
+import Vault from "./Components/Vault";
 import AboutUs from "./Components/AboutUs";
 
 import "./Styles/App.scss";
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "instruments", element: <Instruments /> },
       { path: "media", element: <Media /> },
-      { path: "order", element: <Order /> },
+      { path: "vault", element: <Vault /> },
       { path: "about", element: <AboutUs /> },
       { path: "*", element: <ErrorPage /> },
     ],
