@@ -5,9 +5,10 @@ import "../Styles/Media.scss";
 export default function Media() {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
-  const images = Array.from({ length: 30 }, (_, i) => ({
-    src: `https://picsum.photos/seed/${i}/1000/700`,
-    alt: `Random ${i}`,
+  const images = Array.from({ length: 18 }, (_, i) => ({
+    // src: `https://picsum.photos/seed/${i}/1000/700`,
+    src: `/images/photoshoot/ps-${i}.jpg`,
+    alt: `Pronske Guitars Photoshoot - ${i}`,
   }));
 
   const handleClick = (index) => setSelectedIndex(index);
@@ -28,29 +29,8 @@ export default function Media() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [selectedIndex]);
 
-  useEffect(() => {
-    const scroll = (id) => {
-      const section = document.querySelector(`#${id}`);
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    };
-
-    if (window.location.href.split('#').length === 2) {
-      scroll(window.location.href.split('#')[1]);
-    }
-  }, []);
-
   return (
     <>
-      <div>MEDIA COMPONENT</div>
-      <div id="youtube" className="video-container">
-        <iframe
-          src="https://youtube.com/embed/videoseries?list=PLdbQG347EqVCXIzF520Hu-9RvPkUwt3t2&si=GfSVbvZzD0sb1LXx"
-          title="YouTube playlist player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share"
-          allowFullScreen
-        ></iframe>
-      </div>
       <div className="media-container">
         <div className="gallery-container">
           {images.map((img, i) => (

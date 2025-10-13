@@ -1,8 +1,8 @@
 @use './variables' as *;
 
 .modal-content {
-    background-color: $primary-text-color;
-    color: $secondary-text-color;
+    background-color: $white;
+    color: $dark-blue;
     padding: 2rem;
     border-radius: 10px;
     height: 20%;
@@ -14,4 +14,20 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.vault-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.vault-modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
 }

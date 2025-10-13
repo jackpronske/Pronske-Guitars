@@ -1,27 +1,48 @@
 @use './variables' as *;
 
 
-.card-container {
-    max-height: 400px;
-    background-color: tan;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-radius: 10px;
+.vault-card-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 10px;
+    justify-content: center;
 }
 
-.card {
-    height: 300px;
+.vault-card {
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    background-color: gray;
-    margin-bottom: 2rem;
+    background-color: $dark-blue;
+    color: $white;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
-.card-img {
-    max-height: 80%;
+.vault-card-img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.vault-card-content {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.vault-modal-img {
+    height: 350px;
+    width: 350px;
+}
+
+.vault-modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="large"><em>PRONSKE GUITARS</em></div>
             <div className="texas-logo-container">
               <div className="texas-logo"></div>
-              <div>PLANO, TX</div>
+              <div>CARROLLTON, TX</div>
             </div>
             <SocialIcons />
           </div>
@@ -31,9 +31,6 @@ export default function Footer() {
             <div className="large">Helpful Links</div>
             <hr className="divider" />
             <ul>
-              <li>
-                <HashLink to="/media#youtube">Listen/Watch</HashLink>
-              </li>
               <li onClick={() => { setIsOpenVisit(true) }}>Schedule a Shop Visit!</li>
               <Modal isOpen={isOpenVisit} onClose={() => setIsOpenVisit(false)}>
                 <h2>Check out the Shop!</h2>
@@ -44,19 +41,18 @@ export default function Footer() {
                 </div>
                 <button onClick={() => setIsOpenVisit(false)}>Close</button>
               </Modal>
-              <li>
-                <HashLink to="/about#charity">Learn more about our charity work</HashLink>
-              </li>
               <li onClick={() => { setIsOpenContact(true) }}>Contact Us</li>
               <Modal isOpen={isOpenContact} onClose={() => setIsOpenContact(false)}>
                 <h2>Let's get in touch!</h2>
                 <div className="modal-text-container">
-                  <div>PLANO, TX</div>
+                  <div>CARROLLTON, TX</div>
                   <div>info@pronskeguitars.com</div>
-                  <div>972-306-2001</div>
                 </div>
                 <button onClick={() => setIsOpenContact(false)}>Close</button>
               </Modal>
+              <li>
+                <a href="https://creative.bigtex.com/sft-results/?gr=Designer+Craftsman&div=Designer+Craftsman%2C+Teachers+and+Professionals">State Fair 2025 Mention</a>
+              </li>
             </ul>
           </div>
         </div>

@@ -5,14 +5,14 @@ import Modal from "./Modal";
 
 import "../Styles/Footer.scss";
 
-export default function Form() {
+export default function Form({ autoFill }) {
 
   const [captchaSvg, setCaptchaSvg] = useState("");
   const [captcha, setCaptcha] = useState("");
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState(autoFill ?? '');
   const [checkbox, toggleCheckbox] = useState(false);
 
   const [isOpen, setIsOpen] = useState(false);

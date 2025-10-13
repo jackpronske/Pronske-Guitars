@@ -19,21 +19,26 @@ export default function AboutUs() {
     <div className="body-container">
       <div className="body-section fade full-image">
         <div className="about-full-image">
-          <img src={'https://picsum.photos/seed/1/1000/700'} alt='full image about' />
+          <img src="/images/photoshoot/ps-12.jpg" alt='full image about' />
           <div className="overlay-text">Family owned. Family run.<br /> Handcrafted, quality instruments.</div>
         </div>
       </div>
       <div className="body-section fade cta">
-        <div className="about-cta fade">Proin sed mi ex. Proin nec eleifend nibh. Nunc lobortis semper lorem, vel luctus lectus tincidunt non.</div>
+        <div className="about-cta fade">Where music meets craftsmanship, every guitar is a work of art.</div>
       </div>
       <div id="charity" className="body-section fade main">
         <div className="main-about-text-container fade">
-          <div className="main-about-text-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-          <div className="main-about-text-subtext">Vivamus egestas ante vitae ultrices maximus. Praesent efficitur finibus ullamcorper. Etiam sit amet nisi aliquam ante mattis vulputate. Sed cursus ullamcorper tortor vel fermentum. Sed eget diam varius, laoreet arcu in, ullamcorper libero. Fusce congue nisl ac arcu faucibus dictum. Aenean vestibulum neque accumsan mi lobortis iaculis. Curabitur orci sapien, laoreet at nisi vel, pretium finibus mauris.</div>
+          <div className="main-about-text-title">About the luthier:</div>
+          <div className="main-about-text-subtext">After more than five decades as a classically trained pianist performing with twelve symphony orchestras including the Fort Worth Symphony, Gerrit Pronske turned his lifelong devotion to music toward a new medium: the Acoustic Guitar.</div>
+          <div className="main-about-text-subtext">When changes in hearing made the piano less enjoyable, he discovered that the guitar still carried the warmth and nuance of tone he loved. What began as a new passion quickly evolved into a meticulous craft. Under the guidance of a master luthier who favored traditional hand tools over modern machinery, Gerrit immersed himself in the art and discipline of guitar making.</div>
+          <div className="main-about-text-subtext">In 2025, he founded Pronske Guitar Co., Ltd., establishing his workshop in Carrollton, Texas. Since then, he has built more than twenty custom acoustic guitars entirely from scratch, each crafted from rare, hand-selected tonewoods and designed to deliver exceptional sound, resonance, and playability.</div>
+          <div className="main-about-text-subtext">Gerrits dedication to precision, artistry, and musical integrity recently earned him top honors at the 2025 Texas State Fair, where he won not only 1st Place in the woodworking category and Best of Show among over 1,100 crafts categories.</div>
+          <div className="main-about-text-subtext">Gerrit currently resides in Plano, TX, with his wife and two Dachshunds.</div>
         </div>
+
         <div className="main-about-photo-container fade">
           <div className="main-about-photo">
-            <img src={'https://picsum.photos/seed/10/1000/700'} alt='picture on main about' />
+            <img src="/images/Gerrit_Working.jpg" alt='picture on main about' />
           </div>
         </div>
       </div>

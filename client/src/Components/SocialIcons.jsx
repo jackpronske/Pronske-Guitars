@@ -14,9 +14,9 @@ export default function SocialIcons() {
       <a className="social-icon" href="https://bsky.app/profile/pronskeguitars.bsky.social" target="_blank" rel="noopener noreferrer">
         <FaBluesky />
       </a>
-      <a className="social-icon" href="https://soundcloud.com" target="_blank" rel="noopener noreferrer">
+      {/* <a className="social-icon" href="https://soundcloud.com" target="_blank" rel="noopener noreferrer">
         <FaSoundcloud />
-      </a>
+      </a> */}
       <a className="social-icon" href="https://www.youtube.com/@PronskeGuitars" target="_blank" rel="noopener noreferrer">
         <FaYoutube />
       </a>
