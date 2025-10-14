@@ -5,5 +5,5 @@ services:
     branch: main
     runtime: node
     plan: free
-    buildCommand: npm ci && npm run build-prod
+    buildCommand: NODE_ENV=development npm ci && npm run build-prod
     startCommand: node server
