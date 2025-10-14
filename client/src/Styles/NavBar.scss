@@ -1,0 +1,42 @@
+@use './variables' as *;
+
+.nav-container {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131B23;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    z-index: 100;
+    border-bottom: 1px solid #E9F1F7;
+    margin-top: -60px;
+}
+
+.nav-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 1rem;
+
+}
+
+.nav-item {
+    color: $white;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.nav-item.active {
+    opacity: 1;
+}
+
+.nav-item:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    opacity: 1;
+}

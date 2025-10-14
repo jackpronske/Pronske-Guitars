@@ -1,0 +1,22 @@
+import React, { useState } from "react";
+import VaultModal from './VaultModal';
+import Form from './Form';
+
+export default function MoreInfo({ selectedItem }) {
+    const [showModal, setModalStatus] = useState(false);
+
+    return (
+        <>
+            <img src={"/images/vault/inventory_images/" + selectedItem.sid + ".jpg"} alt={selectedItem.entry_name} />
+            <div>{selectedItem.entry_name}</div>
+            <div>{selectedItem.sid}</div>
+            <div>{selectedItem.tags}</div>
+            <button onClick={() => { setModalStatus(true) }}>Let's talk!</button>
+            {showModal ? <VaultModal>
+                <>
+                    <div>hi</div>
+                </>
+            </VaultModal> : null}
+        </>
+    )
+}

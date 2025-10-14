@@ -1,29 +1,43 @@
-const express = require('express')
-const path = require('path');
+require('dotenv').config();
+const express = require("express");
+const session = require("express-session");
+const path = require("path");
+const app = express();
+const port = process.env.PORT || 10000;
 
-const app = express()
-const port = 3030;
+const formRouter = require('./routes/form.js');
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../client/public')));
+app.use(express.static(path.join(__dirname, "../client/public")));
 
-app.get('/', (req, res) => {
-  if (err) {
-    res.status(400).send(err);
-  } else {
-    res.status(200).send({});
-  }
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: true
+}));
+
+app.use("/form", formRouter);
+
+app.post("/api/log-route", (req, res) => {
+  console.log(`[API] ${req.body.path} - ${new Date().toLocaleString()}`);
+  res.sendStatus(200);
 });
 
-app.post('/', (req, res) => {
-  console.log(req.body);
-  if (err) {
-    res.status(400).send(err);
-  } else {
-    res.status(201).send(res.body);
-  }
+app.get("/*", (req, res, next) => {
+  res.sendFile(path.join(__dirname, "../client/public/index.html"), (err) => {
+    if (err) {
+      next(err);
+    }
+  });
+});
+
+app.use((err, req, res, next) => {
+  console.error("Global Error:", err.stack);
+  res.status(err.status || 500).json({
+    error: { message: err.message || "Internal Server Error" },
+  });
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on http://localhost:${port}`)
+  console.log(`Server listening on http://localhost:${port}`);
 });

@@ -1,0 +1,26 @@
+.skeleton-section {
+    border: 2px dotted #aaa;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.skeleton-box {
+    border: 1px dotted #666;
+    background-color: rgba(200, 200, 200, 0.1);
+    margin-bottom: 1rem;
+}
+
+.box-sm {
+    height: 40px;
+    width: 30%;
+}
+
+.box-md {
+    height: 100px;
+    width: 60%;
+}
+
+.box-lg {
+    height: 200px;
+    width: 100%;
+}

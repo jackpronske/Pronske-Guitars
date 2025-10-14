@@ -1,0 +1,48 @@
+@use './variables' as *;
+
+
+.vault-card-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.vault-card {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $dark-blue;
+    color: $white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.vault-card-img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.vault-card-content {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.vault-modal-img {
+    height: 350px;
+    width: 350px;
+}
+
+.vault-modal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
