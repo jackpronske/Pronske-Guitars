@@ -1,12 +1,9 @@
 services:
   - type: web
-    name: my-site-web
-    repo: https://github.com/<your-org-or-user>/<your-repo>
+    name: pronske-guitars
+    repo: https://github.com/jackpronske/Pronske-Guitars
     branch: main
     runtime: node
     plan: free
     buildCommand: npm ci && npm run build-prod
-    startCommand: node server.js
-    envVars:
-      - key: NODE_ENV
-        value: production
+    startCommand: node server
