@@ -13,9 +13,8 @@ export default function App() {
 
   return (
     <div>
-      {!isHome && <div style={{ height: "60px" }} />}
-      {isHome && <div className="hero-image"></div>}
       <NavBar />
+      {isHome && <div className="hero-image"></div>}
       <LogPageView />
       <ScrollToTop />
       <Outlet />

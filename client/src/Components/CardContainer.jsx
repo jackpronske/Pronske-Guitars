@@ -4,7 +4,7 @@ import Form from './Form';
 
 import "../Styles/CardContainer.scss";
 
-import data from '../lists/inventory.json';
+import data from '../lists/inventory_02_09.json';
 
 export default function CardContainer({ selectedTiers, selectedWoods }) {
 
@@ -45,7 +45,7 @@ export default function CardContainer({ selectedTiers, selectedWoods }) {
               className="vault-card"
               onClick={() => { handleClick(item) }}
             >
-              <img className="vault-card-img" src={"/images/vault/inventory_images/" + item.sid + ".jpg"} alt={item.entry_name} />
+              <img className="vault-card-img" src={"images/vault/inventory_images_02_09/" + item.sid + ".jpg"} alt={item.entry_name} />
               <div className="vault-card-content">{item.entry_name}</div>
             </div>
           ))
@@ -62,7 +62,7 @@ export default function CardContainer({ selectedTiers, selectedWoods }) {
         </div> */}
         {/* <MoreInfo selectedItem={selectedItem} /> */}
         <div className={"vault-modal-container"}>
-          <img className="vault-modal-img" src={"/images/vault/inventory_images/" + selectedItem.sid + ".jpg"} alt={selectedItem.entry_name} />
+          <img className="vault-modal-img" src={"/images/vault/inventory_images_02_09/" + selectedItem.sid + ".jpg"} alt={selectedItem.entry_name} />
           <div>{selectedItem.entry_name}</div>
           <div>{selectedItem.sid}</div>
           <div>{selectedItem.tags}</div>

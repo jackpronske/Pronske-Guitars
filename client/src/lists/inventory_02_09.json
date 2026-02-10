@@ -1,0 +1,1699 @@
+[
+  {
+    "entry_name": "Mahogany (Cuban)",
+    "sid": "SKUG0T0016",
+    "tier": "1 (Craftsman)",
+    "tags": "Guitar Back"
+  },
+  {
+    "entry_name": "Maple (Quilted)",
+    "sid": "SKUG0T0121",
+    "tier": "1 (Craftsman)",
+    "tags": "Guitar Back"
+  },
+  {
+    "entry_name": "Phoebe Wood",
+    "sid": "SKUG0T0215",
+    "tier": "2 (Artisan)",
+    "tags": "Guitar Back"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian Kingwood)",
+    "sid": "SKUG0T0236",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Burma)",
+    "sid": "SKUG0T0224",
+    "tier": "1 (Craftsman)",
+    "tags": "Guitar Back"
+  },
+  {
+    "entry_name": "Black Acacia",
+    "sid": "SKUG0T0011",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Blackwood (Malaysian)",
+    "sid": "SKUG0T0230",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Blackwood (Malaysian)",
+    "sid": "SKUG0T0232",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Blackwood (Tasmanian)",
+    "sid": "SKUG0T0130",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bocote",
+    "sid": "SKUG0T0048",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bocote",
+    "sid": "SKUG0T0075",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bocote",
+    "sid": "SKUG0T0077",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bocote",
+    "sid": "SKUG0T0229",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bocote (Ukulele - Tenor)",
+    "sid": "SKUG0T0073",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bocote (Ukulele - Tenor)",
+    "sid": "SKUG0T0076",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0283",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Pomelle)",
+    "sid": "SKUG0T0200",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0122",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0123",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0124",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0125",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0126",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0127",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0128",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0162",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0164",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall)",
+    "sid": "SKUG0T0165",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Canarywood",
+    "sid": "SKUG0T0163",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Chechen",
+    "sid": "SKUG0T0175",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Chechen",
+    "sid": "SKUG0T0176",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Cocobolo",
+    "sid": "SKUG0T0180",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Cocobolo",
+    "sid": "SKUG0T0199",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Cocobolo",
+    "sid": "SKUG0T0234",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Indian - Curly)",
+    "sid": "SKUG0T0228",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Macassar)",
+    "sid": "SKUG0T0111",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Macassar)",
+    "sid": "SKUG0T0225",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Macassar)",
+    "sid": "SKUG0T0226",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Macassar)",
+    "sid": "SKUG0T0227",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Macassar)",
+    "sid": "SKUG0T0231",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Mun)",
+    "sid": "SKUG0T0112",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Mun)",
+    "sid": "SKUG0T0207",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Granadillo",
+    "sid": "SKUG0T0166",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Granadillo",
+    "sid": "SKUG0T0178",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Granadillo (Figured)",
+    "sid": "SKUG0T0196",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Grenadillo",
+    "sid": "SKUG0T0170",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Imbuia (Brazilian Walnut)",
+    "sid": "SKUG0T0233",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0118",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0120",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0136",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0142",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0143",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0157",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0205",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0206",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany",
+    "sid": "SKUG0T0158",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Asian)",
+    "sid": "SKUG0T0135",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Asian)",
+    "sid": "SKUG0T0156",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Cuban)",
+    "sid": "SKUG0T0003",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Cuban)",
+    "sid": "SKUG0T0034",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Cuban)",
+    "sid": "SKUG0T0035",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Cuban)",
+    "sid": "SKUG0T0241",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Cuban)",
+    "sid": "SKUG0T0249",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Honduran)",
+    "sid": "SKUG0T0133",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Honduran)",
+    "sid": "SKUG0T0160",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Honduran)",
+    "sid": "SKUG0T0161",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Blackwood (Malaysian)",
+    "sid": "SKUG0T0242",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Maple (Ambrosia)",
+    "sid": "SKUG0T0198",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Pale Moon)",
+    "sid": "SKUG0T0117",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Pau Ferro",
+    "sid": "SKUG0T0102",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Pau Ferro",
+    "sid": "SKUG0T0169",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Pau Ferro (Bolivian Rosewood)",
+    "sid": "SKUG0T0221",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Phoebe Wood",
+    "sid": "SKUG0T0213",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Purpleheart",
+    "sid": "SKUG0T0195",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian Kingwood)",
+    "sid": "SKUG0T0031",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Amazon)",
+    "sid": "SKUG0T0046",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Bois de Rose)",
+    "sid": "SKUG0T0026",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Bois de Rose)",
+    "sid": "SKUG0T0085",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Bois de Rose)",
+    "sid": "SKUG0T0223",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Bois de Rose)",
+    "sid": "SKUG0T0237",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Bois de Rose)",
+    "sid": "SKUG0T0285",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Bois de Rose)",
+    "sid": "SKUG0T0286",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0029",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0001",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0002",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0006",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0007",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0008",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0017",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0018",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0019",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0020",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0021",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0022",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0023",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0027",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0028",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0030",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0032",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0033",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0068",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0069",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0070",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0082",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0209",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0210",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0212",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0216",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0235",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0240",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0243",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0244",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0245",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0246",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0247",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0264",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0265",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0266",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0267",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0268",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0269",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0270",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0271",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0272",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0288",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0289",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0290",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0291",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0292",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0293",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0294",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0295",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0296",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0297",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0298",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0299",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0300",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Brazilian)",
+    "sid": "SKUG0T0301",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Burma)",
+    "sid": "SKUG0T0211",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Camatillo - Mexican Kingwood)",
+    "sid": "SKUG0T0222",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Cocobolo)",
+    "sid": "SKUG0T0004",
+    "tier": "3 (Master)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Cocobolo)",
+    "sid": "SKUG0T0091",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Cocobolo)",
+    "sid": "SKUG0T0097",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Cocobolo)",
+    "sid": "SKUG0T0155",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Cocobolo)",
+    "sid": "SKUG0T0171",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Cocobolo)",
+    "sid": "SKUG0T0217",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Cocobolo)",
+    "sid": "SKUG0T0219",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Cocobolo)",
+    "sid": "SKUG0T0220",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Guatamalan)",
+    "sid": "SKUG0T0284",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Guatamalan)",
+    "sid": "SKUG0T0287",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Guatamalan)",
+    "sid": "SKUG0T0248",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Honduran)",
+    "sid": "SKUG0T0045",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Honduran)",
+    "sid": "SKUG0T0061",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Honduran)",
+    "sid": "SKUG0T0066",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Honduran)",
+    "sid": "SKUG0T0119",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Honduran)",
+    "sid": "SKUG0T0134",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Indian)",
+    "sid": "SKUG0T0129",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Indian)",
+    "sid": "SKUG0T0132",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Indian - Figured)",
+    "sid": "SKUG0T0071",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Indonesian)",
+    "sid": "SKUG0T0047",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Madagascar)",
+    "sid": "SKUG0T0062",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Madagascar)",
+    "sid": "SKUG0T0153",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Madagascar - Old Growth)",
+    "sid": "SKUG0T0049",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Nicaraguan)",
+    "sid": "SKUG0T0051",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Palo Escrito)",
+    "sid": "SKUG0T0250",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Palo Escrito)",
+    "sid": "SKUG0T0251",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Palo Escrito)",
+    "sid": "SKUG0T0092",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Palo Escrito)",
+    "sid": "SKUG0T0093",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Panama)",
+    "sid": "SKUG0T0218",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Bolivian - Santos)",
+    "sid": "SKUG0T0089",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Sapele (Quilted)",
+    "sid": "SKUG0T0167",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Sapele (Quilted)",
+    "sid": "SKUG0T0204",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Walnut",
+    "sid": "SKUG0T0154",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Walnut (Figured)",
+    "sid": "SKUG0T0159",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Walnut (Black - Figured)",
+    "sid": "SKUG0T0131",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Walnut (Black - Figured)",
+    "sid": "SKUG0T0197",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ziricote",
+    "sid": "SKUG0T0116",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ziricote",
+    "sid": "SKUG0T0192",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ziricote",
+    "sid": "SKUG0T0193",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ziricote",
+    "sid": "SKUG0T0201",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bay Laurel",
+    "sid": "SKUG0T0059",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Birch (Flame)",
+    "sid": "SKUG0T0078",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Birch (Flame)",
+    "sid": "SKUG0T0079",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Black Acacia",
+    "sid": "SKUG0T0039",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bocote (Ukulele - Tenor)",
+    "sid": "SKUG0T0074",
+    "tier": "1 (Craftsman)",
+    "tags": "Ukulele"
+  },
+  {
+    "entry_name": "Bubinga (Waterfall Figured)",
+    "sid": "SKUG0T0050",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Chechen",
+    "sid": "SKUG0T0037",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Cherry (Curly - Quilted)",
+    "sid": "SKUG0T0090",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Cherry Wood (Curly)",
+    "sid": "SKUG0T0072",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Cherry (Curly)",
+    "sid": "SKUG0T0086",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Cook Island Chestnut",
+    "sid": "SKUG0T0081",
+    "tier": "2 (Artisan)",
+    "tags": ""
+  },
+  {
+    "entry_name": "Ebiara (Figured)",
+    "sid": "SKUG0T0043",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Mun)",
+    "sid": "SKUG0T0208",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Pale Moon)",
+    "sid": "SKUG0T0113",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony",
+    "sid": " (Pale Moon)",
+    "tags": "400.0"
+  },
+  {
+    "entry_name": "Granadillo",
+    "sid": "SKUG0T0084",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0109",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0115",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa (Curly)",
+    "sid": "SKUG0T0065",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Koa (Hawaiian - Curly)",
+    "sid": "SKUG0T0054",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0096",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0098",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0099",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0100",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0101",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0103",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Leopardwood",
+    "sid": "SKUG0T0104",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany",
+    "sid": "SKUG0T0174",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Asian)",
+    "sid": "SKUG0T0110",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Mahogany (Honduran)",
+    "sid": "SKUG0T0172",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Maple (Curly - Spalted)",
+    "sid": "SKUG0T0036",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Marblewood",
+    "sid": "SKUG0T0083",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Marblewood (Figured)",
+    "sid": "SKUG0T0042",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Prima Vera",
+    "sid": "SKUG0T0058",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Sapele (Curly)",
+    "sid": "SKUG0T0173",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Bay Laurel (Tenor Ukulele)",
+    "sid": "SKUG0T0052",
+    "tier": "1 (Craftsman)",
+    "tags": "Ukulele"
+  },
+  {
+    "entry_name": "Maple (Quilted - Ukulele)",
+    "sid": "SKUG0T0106",
+    "tier": "2 (Artisan)",
+    "tags": " Back and Sides"
+  },
+  {
+    "entry_name": "Walnut (Fiddleback)",
+    "sid": "SKUG0T0064",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Walnut (Black)",
+    "sid": "SKUG0T0105",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Walnut (Black - Figured)",
+    "sid": "SKUG0T0107",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Walnut (Black - Figured)",
+    "sid": "SKUG0T0108",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Walnut Turkish",
+    "sid": "SKUG0T0095",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Zebrawood",
+    "sid": "SKUG0T0053",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Zebrawood",
+    "sid": "SKUG0T0060",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Zebrawood (Ebiara)",
+    "sid": "SKUG0T0038",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ziricote",
+    "sid": "SKUG0T0087",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Rosewood (Burmese)",
+    "sid": "SKUG0T0214",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Ebony (Curly)",
+    "sid": "SKUG0T0024",
+    "tier": "2 (Artisan)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Granadillo",
+    "sid": "SKUG0T0179",
+    "tier": "1 (Craftsman)",
+    "tags": "Back and Sides"
+  },
+  {
+    "entry_name": "Cypress (Dark Forest)",
+    "sid": "SKUG0T0238",
+    "tier": "2 (Artisan)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Cypress(Dark Forest)",
+    "sid": "SKUG0T0239",
+    "tier": "2 (Artisan)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Redwood (Curly)",
+    "sid": "SKUG0T0186",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Redwood (Curly)",
+    "sid": "SKUG0T0187",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Redwood (Curly)",
+    "sid": "SKUG0T0188",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Redwood (Curly)",
+    "sid": "SKUG0T0189",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Redwood (Sinker)",
+    "sid": "SKUG0T0168",
+    "tier": "1 (Craftsman)",
+    "tags": ""
+  },
+  {
+    "entry_name": "Redwood (Sinker)",
+    "sid": "SKUG0T0177",
+    "tier": "2 (Artisan)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Adirondack)",
+    "sid": "SKUG0T0182",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce(Adirondack)",
+    "sid": "SKUG0T0183",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce(Adirondack)",
+    "sid": "SKUG0T0202",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce(Adirondack)",
+    "sid": "SKUG0T0203",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce(Adirondack - Torrefied)",
+    "sid": "SKUG0T0181",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce(Adirondack - Torrefied)",
+    "sid": "SKUG0T0184",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce(Adirondack - Torrefied)",
+    "sid": "SKUG0T0185",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce(Adirondack - Torrefied)",
+    "sid": "SKUG0T0190",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce(Adirondack - Torrefied)",
+    "sid": "SKUG0T0191",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Engelmann)",
+    "sid": "SKUG0T0137",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0254",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0255",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0256",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0257",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0258",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0259",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0260",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0261",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0262",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0263",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0273",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0274",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0275",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0276",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Bearclaw)",
+    "sid": "SKUG0T0145",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Bearclaw)",
+    "sid": "SKUG0T0148",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Bearclaw)",
+    "sid": "SKUG0T0149",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Sonically Graded)",
+    "sid": "SKUG0T0139",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Sonically Graded)",
+    "sid": "SKUG0T0140",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Sonically Graded)",
+    "sid": "SKUG0T0141",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Sonically Graded)",
+    "sid": "SKUG0T0146",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Sonically Graded)",
+    "sid": "SKUG0T0147",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Lutz - Sonically Graded)",
+    "sid": "SKUG0T0152",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Sitka - Bearclaw - Thermally Modified)",
+    "sid": "SKUG0T0138",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Sitka - Sonically Graded)",
+    "sid": "SKUG0T0151",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spuce (Lutz - Bearclaw)",
+    "sid": "SKUG0T0150",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0277",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0278",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0279",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0280",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (Italian Alpine)",
+    "sid": "SKUG0T0281",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "spruce (Italian Alpine)",
+    "sid": "SKUG0T0282",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Koa",
+    "sid": "SKUG0T0094",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (European)",
+    "sid": "SKUG0T0088",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Spruce (German)",
+    "sid": "SKUG0T0041",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Cedar (Western Red - Premium)",
+    "sid": "SKUG0T0055",
+    "tier": "1 (Craftsman)",
+    "tags": "Soundboard"
+  },
+  {
+    "entry_name": "Snakewood",
+    "sid": "SKUG0T0253",
+    "tier": "2 (Artisan)",
+    "tags": "Ukulele"
+  }
+]
