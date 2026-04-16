@@ -12,7 +12,7 @@ export default function App() {
   const isHome = location.pathname === "/";
 
   return (
-    <div>
+    <div className='container-spacing'>
       <NavBar />
       {isHome && <div className="hero-image"></div>}
       <LogPageView />

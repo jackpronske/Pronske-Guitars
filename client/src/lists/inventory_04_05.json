@@ -1,0 +1,2417 @@
+{
+  "woods": [
+    "Birch",
+    "Blackwood",
+    "Bocote",
+    "Bubinga",
+    "Canarywood",
+    "Cedar",
+    "Chechen",
+    "Cherry",
+    "Chestnut",
+    "Cypress",
+    "Ebony",
+    "Golden Phoebe",
+    "Granadillo",
+    "Koa",
+    "Laurel",
+    "Leopardwood",
+    "Mahogany",
+    "Maple",
+    "Marblewood",
+    "Pau Ferro",
+    "Primavera",
+    "Purpleheart",
+    "Redwood",
+    "Rosewood",
+    "Sapele",
+    "Satinwood",
+    "Snakewood",
+    "Spruce",
+    "Walnut",
+    "Zebrawood",
+    "Ziricote"
+  ],
+  "tags": [
+    "Back and Sides",
+    "Back Only",
+    "Soundboard",
+    "Ukulele"
+  ],
+  "tiers": [
+    "1 - Craftsman",
+    "2 - Artisan",
+    "3 - Master"
+  ],
+  "inventoryObj": [
+    {
+      "wood": "Birch",
+      "sku": "SKUG0T0078",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Birch",
+      "sku": "SKUG0T0079",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Blackwood",
+      "sku": "SKUG0T0011",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Blackwood",
+      "sku": "SKUG0T0039",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Blackwood - Malaysian",
+      "sku": "SKUG0T0230",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Blackwood - Malaysian",
+      "sku": "SKUG0T0232",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Blackwood - Malaysian",
+      "sku": "SKUG0T0242",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Blackwood - Tasmanian",
+      "sku": "SKUG0T0130",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Bocote",
+      "sku": "SKUG0T0048",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Bocote",
+      "sku": "SKUG0T0073",
+      "tags": [
+        "Ukulele",
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Bocote",
+      "sku": "SKUG0T0074",
+      "tags": [
+        "Back and Sides",
+        "Ukulele"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Bocote",
+      "sku": "SKUG0T0075",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Bocote",
+      "sku": "SKUG0T0076",
+      "tags": [
+        "Soundboard",
+        "Ukulele",
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Bocote",
+      "sku": "SKUG0T0077",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Bocote",
+      "sku": "SKUG0T0229",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Bubinga",
+      "sku": "SKUG0T0306",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga",
+      "sku": "SKUG0T0307",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Bubinga",
+      "sku": "SKUG0T0308",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Bubinga",
+      "sku": "SKUG0T0309",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Bubinga - Pomelle",
+      "sku": "SKUG0T0200",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0050",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0122",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0123",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0124",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0125",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0126",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0127",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0128",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0162",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0164",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Bubinga - Waterfall",
+      "sku": "SKUG0T0165",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Canarywood",
+      "sku": "SKUG0T0163",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Cedar - Western Red",
+      "sku": "SKUG0T0055",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Chechen",
+      "sku": "SKUG0T0037",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Chechen",
+      "sku": "SKUG0T0175",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Chechen",
+      "sku": "SKUG0T0176",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Cherry",
+      "sku": "SKUG0T0072",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Cherry",
+      "sku": "SKUG0T0086",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Cherry",
+      "sku": "SKUG0T0090",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Chestnut - Cook Island",
+      "sku": "SKUG0T0081",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Cypress - Dark Forest",
+      "sku": "SKUG0T0238",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Cypress - Dark Forest",
+      "sku": "SKUG0T0239",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Ebony",
+      "sku": "SKUG0T0024",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Indian",
+      "sku": "SKUG0T0228",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Macassar",
+      "sku": "SKUG0T0111",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Ebony - Macassar",
+      "sku": "SKUG0T0225",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Macassar",
+      "sku": "SKUG0T0226",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Macassar",
+      "sku": "SKUG0T0227",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Macassar",
+      "sku": "SKUG0T0231",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Ebony - Mun",
+      "sku": "SKUG0T0112",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Mun",
+      "sku": "SKUG0T0207",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Mun",
+      "sku": "SKUG0T0208",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Mun",
+      "sku": "SKUG0T0303",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Pale Moon",
+      "sku": "SKUG0T0113",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Pale Moon",
+      "sku": "SKUG0T0114",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Pale Moon",
+      "sku": "SKUG0T0117",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ebony - Pale Moon",
+      "sku": "SKUG0T0302",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Golden Phoebe",
+      "sku": "SKUG0T0213",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Golden Phoebe",
+      "sku": "SKUG0T0215",
+      "tags": [
+        "Back Only"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Granadillo",
+      "sku": "SKUG0T0084",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Granadillo",
+      "sku": "SKUG0T0166",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Granadillo",
+      "sku": "SKUG0T0170",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Granadillo",
+      "sku": "SKUG0T0178",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Granadillo",
+      "sku": "SKUG0T0179",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Granadillo",
+      "sku": "SKUG0T0196",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0054",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0065",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0094",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0109",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0115",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0118",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0120",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0136",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0142",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0143",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Koa",
+      "sku": "SKUG0T0157",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Laurel - California Bay",
+      "sku": "SKUG0T0052",
+      "tags": [
+        "Ukulele",
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Laurel - California Bay",
+      "sku": "SKUG0T0059",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0096",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0098",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0099",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0100",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0101",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0103",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0104",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0205",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Leopardwood",
+      "sku": "SKUG0T0206",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany",
+      "sku": "SKUG0T0158",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany",
+      "sku": "SKUG0T0174",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Asian",
+      "sku": "SKUG0T0110",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Asian",
+      "sku": "SKUG0T0135",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Asian",
+      "sku": "SKUG0T0156",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Cuban",
+      "sku": "SKUG0T0003",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Cuban",
+      "sku": "SKUG0T0016",
+      "tags": [
+        "Back Only"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Cuban",
+      "sku": "SKUG0T0034",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Cuban",
+      "sku": "SKUG0T0035",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Cuban",
+      "sku": "SKUG0T0241",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Cuban",
+      "sku": "SKUG0T0249",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Honduran",
+      "sku": "SKUG0T0133",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Honduran",
+      "sku": "SKUG0T0160",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Honduran",
+      "sku": "SKUG0T0161",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Mahogany - Honduran",
+      "sku": "SKUG0T0172",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Maple",
+      "sku": "SKUG0T0036",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Maple",
+      "sku": "SKUG0T0106",
+      "tags": [
+        "Ukulele",
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Maple",
+      "sku": "SKUG0T0121",
+      "tags": [
+        "Back Only"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Maple - Ambrosia",
+      "sku": "SKUG0T0198",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Marblewood",
+      "sku": "SKUG0T0042",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Marblewood",
+      "sku": "SKUG0T0083",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Pau Ferro",
+      "sku": "SKUG0T0089",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Pau Ferro",
+      "sku": "SKUG0T0102",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Pau Ferro",
+      "sku": "SKUG0T0169",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Pau Ferro",
+      "sku": "SKUG0T0221",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Primavera",
+      "sku": "SKUG0T0058",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Purpleheart",
+      "sku": "SKUG0T0195",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Redwood",
+      "sku": "SKUG0T0187",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Redwood",
+      "sku": "SKUG0T0188",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Redwood",
+      "sku": "SKUG0T0189",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Redwood - Sinker",
+      "sku": "SKUG0T0168",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Redwood - Sinker",
+      "sku": "SKUG0T0177",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Amazon",
+      "sku": "SKUG0T0046",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Bois de Rose",
+      "sku": "SKUG0T0026",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Bois de Rose",
+      "sku": "SKUG0T0085",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Bois de Rose",
+      "sku": "SKUG0T0223",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Bois de Rose",
+      "sku": "SKUG0T0237",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Bois de Rose",
+      "sku": "SKUG0T0285",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Bois de Rose",
+      "sku": "SKUG0T0286",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0001",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0002",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0006",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0007",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0008",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0017",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0018",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0019",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0020",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0021",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0022",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0023",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0027",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0028",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0029",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0030",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0032",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0033",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0068",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0069",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0070",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0082",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0209",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0210",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0212",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0216",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0235",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0240",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0243",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0244",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0245",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0246",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0247",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0264",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0265",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0266",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0267",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0268",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0269",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0270",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0271",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0272",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0283",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0288",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0289",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0290",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0291",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0292",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0293",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0294",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0295",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0296",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0297",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0298",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0299",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0300",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0301",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0304",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian",
+      "sku": "SKUG0T0305",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian Kingwood",
+      "sku": "SKUG0T0031",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Brazilian Kingwood",
+      "sku": "SKUG0T0236",
+      "tags": [
+        "Back Only"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Burmese",
+      "sku": "SKUG0T0211",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Burmese",
+      "sku": "SKUG0T0214",
+      "tags": [
+        "Back and Sides",
+        "Soundboard"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Burmese",
+      "sku": "SKUG0T0224",
+      "tags": [
+        "Back Only"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Camatillo",
+      "sku": "SKUG0T0222",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0004",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0091",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0097",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0155",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0171",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0180",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0199",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0217",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0219",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0220",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Cocobolo",
+      "sku": "SKUG0T0234",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Guatemalan",
+      "sku": "SKUG0T0005",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Rosewood - Guatemalan",
+      "sku": "SKUG0T0248",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Guatemalan",
+      "sku": "SKUG0T0284",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Guatemalan",
+      "sku": "SKUG0T0287",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Honduran",
+      "sku": "SKUG0T0045",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Honduran",
+      "sku": "SKUG0T0061",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Honduran",
+      "sku": "SKUG0T0066",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Honduran",
+      "sku": "SKUG0T0119",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Honduran",
+      "sku": "SKUG0T0134",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Indian",
+      "sku": "SKUG0T0071",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Indian",
+      "sku": "SKUG0T0129",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Indian",
+      "sku": "SKUG0T0132",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Indonesian",
+      "sku": "SKUG0T0047",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Madagascar",
+      "sku": "SKUG0T0049",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Madagascar",
+      "sku": "SKUG0T0062",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Madagascar",
+      "sku": "SKUG0T0153",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Nicaraguan",
+      "sku": "SKUG0T0051",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Rosewood - Palo Escrito",
+      "sku": "SKUG0T0092",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Palo Escrito",
+      "sku": "SKUG0T0093",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Palo Escrito",
+      "sku": "SKUG0T0250",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Palo Escrito",
+      "sku": "SKUG0T0251",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Rosewood - Panama",
+      "sku": "SKUG0T0218",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Sapele",
+      "sku": "SKUG0T0167",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Sapele",
+      "sku": "SKUG0T0173",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Sapele",
+      "sku": "SKUG0T0204",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Satinwood - Pyinma",
+      "sku": "SKUG0T0080",
+      "tags": [
+        "Ukulele",
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Snakewood",
+      "sku": "SKUG0T0253",
+      "tags": [
+        "Ukulele",
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0181",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0182",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0183",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0184",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0185",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0190",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0191",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0202",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Adirondack",
+      "sku": "SKUG0T0203",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Engelmann",
+      "sku": "SKUG0T0137",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - European",
+      "sku": "SKUG0T0088",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0041",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0254",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0255",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0256",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0257",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0258",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0259",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0260",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0261",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0262",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - German",
+      "sku": "SKUG0T0263",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian",
+      "sku": "SKUG0T0311",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0273",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0274",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0275",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0276",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0277",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0278",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0279",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0280",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0281",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0282",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0310",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Italian Alpine",
+      "sku": "SKUG0T0313",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0139",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0140",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0141",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0145",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0146",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0147",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0148",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0149",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0152",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Sitka",
+      "sku": "SKUG0T0138",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Sitka",
+      "sku": "SKUG0T0151",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Spruce - Lutz",
+      "sku": "SKUG0T0150",
+      "tags": [
+        "Soundboard"
+      ],
+      "tier": "3 - Master"
+    },
+    {
+      "wood": "Walnut",
+      "sku": "SKUG0T0154",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Walnut",
+      "sku": "SKUG0T0159",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Walnut - Black",
+      "sku": "SKUG0T0105",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Walnut - Black",
+      "sku": "SKUG0T0107",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Walnut - Black",
+      "sku": "SKUG0T0108",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Walnut - Black",
+      "sku": "SKUG0T0131",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Walnut - Black",
+      "sku": "SKUG0T0197",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Walnut - Brazilian",
+      "sku": "SKUG0T0233",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Walnut - Fiddleback",
+      "sku": "SKUG0T0064",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Walnut - Turkish",
+      "sku": "SKUG0T0095",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Zebrawood",
+      "sku": "SKUG0T0038",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Zebrawood",
+      "sku": "SKUG0T0043",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Zebrawood",
+      "sku": "SKUG0T0053",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Zebrawood",
+      "sku": "SKUG0T0060",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Ziricote",
+      "sku": "SKUG0T0087",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ziricote",
+      "sku": "SKUG0T0116",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    },
+    {
+      "wood": "Ziricote",
+      "sku": "SKUG0T0192",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Ziricote",
+      "sku": "SKUG0T0193",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "1 - Craftsman"
+    },
+    {
+      "wood": "Ziricote",
+      "sku": "SKUG0T0201",
+      "tags": [
+        "Back and Sides"
+      ],
+      "tier": "2 - Artisan"
+    }
+  ]
+}
