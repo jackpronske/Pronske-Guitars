@@ -19,7 +19,7 @@ export default function AboutUs() {
     <div className="body-container">
       <div className="body-section fade full-image">
         <div className="about-full-image">
-          <img src="/images/photoshoot/ps-12.jpg" alt='full image about' />
+          <img src="/images/photoshoot/pg-12-large.jpg" alt='full image about' />
           <div className="overlay-text">Family owned. Family run.<br /> Handcrafted, quality instruments.</div>
         </div>
       </div>

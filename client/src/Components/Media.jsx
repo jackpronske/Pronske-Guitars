@@ -6,9 +6,10 @@ export default function Media() {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const images = Array.from({ length: 18 }, (_, i) => ({
-    // src: `https://picsum.photos/seed/${i}/1000/700`,
-    src: `/images/photoshoot/ps-${i}.jpg`,
+    src: `/images/photoshoot/pg-${i}-medium.jpg`,
     alt: `Pronske Guitars Photoshoot - ${i}`,
+    srcSet: `/images/photoshoot/pg-${i}-thumb.jpg 400w,/images/photoshoot/pg-${i}-medium.jpg 1000w,/images/photoshoot/pg-${i}-large.jpg 1800w`,
+    sizes: "(max-width: 768px) 50vw, 25vw"
   }));
 
   const handleClick = (index) => setSelectedIndex(index);
