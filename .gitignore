@@ -105,3 +105,6 @@ dist
 
 # bundled JS files
 /client/public/bundle.js
+
+.DS_Store
+**/.DS_Store

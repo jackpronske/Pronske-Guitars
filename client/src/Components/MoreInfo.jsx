@@ -7,9 +7,9 @@ export default function MoreInfo({ selectedItem }) {
 
     return (
         <>
-            <img src={"/images/vault/inventory_images_02_09/" + selectedItem.sid + ".jpg"} alt={selectedItem.entry_name} />
+            <img src={"/images/vault/inventory_images_04_05_2026/" + selectedItem.sku + ".jpg"} alt={selectedItem.entry_name} />
             <div>{selectedItem.entry_name}</div>
-            <div>{selectedItem.sid}</div>
+            <div>{selectedItem.sku}</div>
             <div>{selectedItem.tags}</div>
             <button onClick={() => { setModalStatus(true) }}>Let's talk!</button>
             {showModal ? <VaultModal>

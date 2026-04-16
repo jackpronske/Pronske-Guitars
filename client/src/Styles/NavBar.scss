@@ -9,9 +9,9 @@
     position: sticky;
     top: 0;
     padding: 1rem;
-    z-index: 100;
-    border-bottom: 1px solid #E9F1F7;
+    z-index: 1000;
     margin-top: -60px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 100%);
 }
 
 .nav-inner-container {

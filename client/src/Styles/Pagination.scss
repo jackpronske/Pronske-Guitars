@@ -1,0 +1,25 @@
+@use './variables' as *;
+
+.pagination-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    margin-top: 2rem;
+}
+
+.page-select-container {
+    display: flex;
+    gap: 8px;
+}
+
+.page-select-arrow {
+    font-weight: 300;
+}
+
+.page-select-arrow:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}

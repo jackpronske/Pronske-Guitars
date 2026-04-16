@@ -1,15 +1,53 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import VaultModal from './VaultModal';
 import Form from './Form';
+import Pagination from './Pagination';
+import { TiStarOutline, TiStarFullOutline } from "react-icons/ti";
+
+import { useFilters } from '../hooks/useFilters';
 
 import "../Styles/CardContainer.scss";
 
-import data from '../lists/inventory_02_09.json';
+import inventoryList from '../lists/inventory_04_05.json';
 
-export default function CardContainer({ selectedTiers, selectedWoods }) {
+export default function CardContainer({ displayFavoritesOnly }) {
+  const { wood, tier, tag, limit, page } = useFilters();
+  const [favorites, setFavorites] = useState(() => {
+    return JSON.parse(localStorage.getItem('favorites')) || [];
+  });
+
+  const data = inventoryList.inventoryObj;
+
+  const toggleFavorite = (id) => {
+    setFavorites(prev => {
+      const updated = prev.includes(id)
+        ? prev.filter(f => f !== id)
+        : [...prev, id];
+
+      localStorage.setItem('favorites', JSON.stringify(updated));
+      return updated;
+    });
+  };
+
+  const filtered = useMemo(() => {
+    return data.filter(w => {
+      if (wood && !w.wood.includes(wood)) return false;
+      if (tier && w.tier !== tier) return false;
+      if (tag && !w.tags.includes(tag)) return false;
+      if (displayFavoritesOnly && !favorites.includes(w.sku)) return false;
+
+      return true;
+    });
+  }, [wood, tier, tag, displayFavoritesOnly, favorites]);
+
+  const paginated = useMemo(() => {
+    const start = (page - 1) * limit;
+    return filtered.slice(start, start + limit);
+  }, [filtered, limit, page]);
+
 
   const [modalOpenStatus, setModalOpenStatus] = useState(false);
-  const [selectedItem, setSelectedItem] = useState({ entry_name: '', sid: '', tags: '' });
+  const [selectedItem, setSelectedItem] = useState({ wood: '', sku: '', tags: [] });
   const [showFormModal, setFormModalStatus] = useState(false);
 
   const handleClick = (item) => {
@@ -22,56 +60,89 @@ export default function CardContainer({ selectedTiers, selectedWoods }) {
     setFormModalStatus(true);
   }
 
-  const filteredData = data.filter((item) => {
-    const tierMatch =
-      selectedTiers.length === 0 || selectedTiers.includes(item.tier);
-
-    const woodMatch =
-      selectedWoods.length === 0 ||
-      selectedWoods.some((wood) =>
-        item.entry_name.toLowerCase().includes(wood.toLowerCase())
-      );
-
-    return tierMatch && woodMatch;
-  });
-
   return (
     <>
-      <div className="vault-card-container">
-        {filteredData.length !== 0
-          ? filteredData.map(item => (
+      <div id='vault-card-container' className="vault-card-container">
+        {paginated.length !== 0
+          ? paginated.map(item => (
             <div
-              key={item.sid}
+              key={item.sku}
               className="vault-card"
               onClick={() => { handleClick(item) }}
             >
-              <img className="vault-card-img" src={"images/vault/inventory_images_02_09/" + item.sid + ".jpg"} alt={item.entry_name} />
-              <div className="vault-card-content">{item.entry_name}</div>
+              <img
+                className="vault-card-img"
+                src={"images/vault/inventory_images_04_05_2026/" + item.sku + ".jpg" || "/images/Fallback_Vault_Image.png"}
+                alt={item.wood}
+                onError={(e) => {
+                  e.currentTarget.src = "/images/Fallback_Vault_Image.png";
+                }} />
+              <div className="vault-card-content">
+                <div className="vault-card-text">{item.wood}</div>
+                <div
+                  className="vault-card-favorite-icon"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleFavorite(item.sku);
+                  }
+                  }
+                >
+                  {favorites.includes(item.sku) ?
+                    <TiStarFullOutline /> :
+                    <TiStarOutline />
+                  }
+                </div>
+              </div>
             </div>
           ))
           :
           <div>
             Please try a different selection of options!
           </div>}
-      </div>
+      </div >
+      <Pagination totalPages={Math.ceil(filtered.length / limit)} />
       <VaultModal isOpen={modalOpenStatus} onClose={() => { setModalOpenStatus(false) }}>
-        {/* <div>
-          <div>{selectedItem.entry_name}</div>
-          <div>{selectedItem.sid}</div>
-          <div>{selectedItem.tags}</div>
-        </div> */}
-        {/* <MoreInfo selectedItem={selectedItem} /> */}
-        <div className={"vault-modal-container"}>
-          <img className="vault-modal-img" src={"/images/vault/inventory_images_02_09/" + selectedItem.sid + ".jpg"} alt={selectedItem.entry_name} />
-          <div>{selectedItem.entry_name}</div>
-          <div>{selectedItem.sid}</div>
-          <div>{selectedItem.tags}</div>
-          <button onClick={openOtherModal}>Let's talk!</button>
+        <div className="vault-modal-container">
+          <div className="vault-modal-box box-a">
+            <img
+              className="vault-modal-img"
+              src={"/images/vault/inventory_images_04_05_2026/" + selectedItem.sku + ".jpg" || "/images/Fallback_Vault_Image.png"}
+              alt={selectedItem.wood}
+              onError={(e) => {
+                e.currentTarget.src = "/images/Fallback_Vault_Image.png";
+              }} />
+          </div>
+          <div className="vault-modal-box box-b">
+            <div className='vault-modal-info-container'>
+              <div className='vault-modal-title-text'>{selectedItem.wood}</div>
+              <div>{selectedItem.tags.join(", ")}</div>
+              <div className="vault-modal-interested">
+                <div>Interested?</div>
+                <button onClick={openOtherModal}>Let's talk!</button>
+              </div>
+            </div>
+            <div className="vault-info-footer">
+              <div
+                className="vault-card-favorite-icon"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggleFavorite(selectedItem.sku);
+                }
+                }
+              >
+                {favorites.includes(selectedItem.sku) ?
+                  <TiStarFullOutline /> :
+                  <TiStarOutline />
+                }
+              </div>
+              <div>{selectedItem.sku}</div>
+            </div>
+          </div>
         </div>
       </VaultModal>
       <VaultModal isOpen={showFormModal} onClose={() => { setFormModalStatus(false) }}>
         <>
-          <Form autoFill={`I'm interested in ${selectedItem.entry_name}, ${selectedItem.sid}!`} />
+          <Form autoFill={`I'm interested in ${selectedItem.wood}, ${selectedItem.sku}!`} />
         </>
       </VaultModal>
     </>

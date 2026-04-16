@@ -3,7 +3,7 @@
 .hero-slideshow {
     position: relative;
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -67,13 +67,47 @@ h2 {
     text-align: center;
 }
 
+.hero-title {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+
+    text-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+
+    font-size: 3rem;
+    color: $white;
+
+    animation: moveTitle 5s ease forwards;
+}
+
+@keyframes moveTitle {
+    0% {
+
+        transform: translate(-50%, -10%);
+        opacity: 1;
+    }
+
+    50% {
+
+        transform: translate(-50%, 200px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, 400px);
+        opacity: 0;
+    }
+}
+
 .pitch-text {
     text-align: center;
 }
 
 .vault-outer-container {
-    display: grid;
-    grid-template-columns: 160px 1fr;
+    position: relative;
 }
 
 .vault-filter-select-container {
@@ -92,4 +126,60 @@ h2 {
     background-color: $yellow;
     margin: 5px 10px 5px 10px;
     padding: 5px;
+}
+
+.filter-trigger {
+    position: sticky;
+    top: 100px;
+
+    margin-left: 20px;
+
+    width: 40px;
+    height: 40px;
+
+    z-index: 100;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.4);
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity 0.3s ease;
+
+    z-index: 99;
+}
+
+.filter-drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 20vw;
+    max-width: 320px;
+    min-width: 240px;
+
+    height: 100vh;
+
+    background: $white;
+    z-index: 100;
+    margin-top: 3.8rem;
+
+
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.body-container.open .filter-drawer {
+    box-shadow: 4px 0 20px rgba(0, 0, 0, .5);
+    transform: translateX(0);
+}
+
+.body-container.open .overlay {
+    opacity: 1;
+    pointer-events: all;
 }
