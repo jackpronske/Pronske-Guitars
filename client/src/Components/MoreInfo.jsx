@@ -7,7 +7,7 @@ export default function MoreInfo({ selectedItem }) {
 
     return (
         <>
-            <img src={"/images/vault/inventory_images_04_05_2026/" + selectedItem.sku + ".jpg"} alt={selectedItem.entry_name} />
+            <img src={"/images/vault/inventory_images_05_26_2026/" + selectedItem.sku + ".jpg"} alt={selectedItem.entry_name} />
             <div>{selectedItem.entry_name}</div>
             <div>{selectedItem.sku}</div>
             <div>{selectedItem.tags}</div>

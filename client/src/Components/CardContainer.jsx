@@ -8,7 +8,7 @@ import { useFilters } from '../hooks/useFilters';
 
 import "../Styles/CardContainer.scss";
 
-import inventoryList from '../lists/inventory_04_05.json';
+import inventoryList from '../lists/inventory_05_26.json';
 
 export default function CardContainer({ displayFavoritesOnly }) {
   const { wood, tier, tag, limit, page } = useFilters();
@@ -72,7 +72,7 @@ export default function CardContainer({ displayFavoritesOnly }) {
             >
               <img
                 className="vault-card-img"
-                src={"images/vault/inventory_images_04_05_2026/" + item.sku + ".jpg" || "/images/Fallback_Vault_Image.png"}
+                src={"images/vault/inventory_images_05_26_2026/" + item.sku + ".jpg" || "/images/Fallback_Vault_Image.png"}
                 alt={item.wood}
                 onError={(e) => {
                   e.currentTarget.src = "/images/Fallback_Vault_Image.png";
@@ -106,7 +106,7 @@ export default function CardContainer({ displayFavoritesOnly }) {
           <div className="vault-modal-box box-a">
             <img
               className="vault-modal-img"
-              src={"/images/vault/inventory_images_04_05_2026/" + selectedItem.sku + ".jpg" || "/images/Fallback_Vault_Image.png"}
+              src={"/images/vault/inventory_images_05_26_2026/" + selectedItem.sku + ".jpg" || "/images/Fallback_Vault_Image.png"}
               alt={selectedItem.wood}
               onError={(e) => {
                 e.currentTarget.src = "/images/Fallback_Vault_Image.png";
