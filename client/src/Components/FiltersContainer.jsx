@@ -3,7 +3,7 @@ import { useFilters } from '../hooks/useFilters';
 
 import "../Styles/FiltersContainer.scss";
 
-import inventory from '../lists/inventory_04_05.json';
+import inventory from '../lists/inventory_05_26.json';
 
 export default function FiltersContainer({ handleToggle, toggleDisplayFavoritesOnly, displayFavoritesOnly }) {
     const { tier, wood, tag, set } = useFilters();
